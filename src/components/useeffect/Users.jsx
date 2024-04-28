@@ -23,7 +23,7 @@ const Users = () => {
   return (
     <div>
       <h2>UserList</h2>
-      {users.length == 0 ? (
+      {users.length === 0 ? (
         <h1>Loading...</h1>
       ) : (
         <>
